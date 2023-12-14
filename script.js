@@ -1,5 +1,12 @@
 function stringChop(str, size) {
-  // your code here
+  let n= str.length;
+	const arr= [];
+	let i=0;
+	while(i<n){
+		arr.push(str.slice(i, i+size));
+		i+=size;
+	}
+	return arr;
 }
 
 // Do not change the code below
