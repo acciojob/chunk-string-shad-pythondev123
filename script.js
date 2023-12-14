@@ -1,8 +1,8 @@
 function stringChop(str, size) {
-	
+	if(n===null) return [];
   let n= str.length;
 	let arr= []
-	if(n===0) return arr;
+	
 	let i=0;
 	while(i<n){
 		arr.push(str.slice(i, i+size));
